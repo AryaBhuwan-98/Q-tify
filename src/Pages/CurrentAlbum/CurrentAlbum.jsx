@@ -38,13 +38,13 @@ const CurrentAlbum = () => {
                 <AlbumDetails title={albumData.title} description={albumData.description} image={albumData.image} totalSongs={albumData.songs ? albumData.songs.length : albumData.artists} />
             ) : (
                 // Do something else
-                <img src="https://www.adorama.com/alc/wp-content/uploads/2021/05/bird-wings-flying.gif" alt="kunalborkar2001@gmail.com" />
+                <img src="https://www.adorama.com/alc/wp-content/uploads/2021/05/bird-wings-flying.gif" alt="aryabhuwan873@gmail.com" />
             )}
             {Object.keys(albumData).length > 0 ? (
                 <AlbumTable songs={albumData.songs} />
             ) : (
                 // Do something else
-                <img src="https://www.adorama.com/alc/wp-content/uploads/2021/05/bird-wings-flying.gif" alt="kunalborkar2001@gmail.com" />
+                <img src="https://www.adorama.com/alc/wp-content/uploads/2021/05/bird-wings-flying.gif" alt="aryabhuwan873@gmail.com" />
             )}
             
             <MusicPlayer />

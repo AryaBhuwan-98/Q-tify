@@ -4,11 +4,11 @@ import './AlbumDetails.css'
 const AlbumDetails = (props) => {
     return (
         <div className='albumDetails'>
-            <img src={props.image} alt="kunalborkar2001@gmail.com" />
+            <img src={props.image} alt="aryabhuwan873@gmail.com" />
             <div className='albumContent'>
                 <h1>{props.title}</h1>
                 <p>{props.description}</p>
-                <p>2022</p>
+                <p>2020</p>
                 <ul>
                     <li>75 songs |</li>
                     <li>3hrs 45 min |</li>
